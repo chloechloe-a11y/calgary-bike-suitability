@@ -77,6 +77,6 @@ Each road segment is scored on three criteria weighted by the North Bend Exponen
 
 ## Author
 
-Jiaru Chen | Geomatics Graduate Student | Calgary, AB
+Yujia Zhang | MEng Geomatics, University of Calgary | Calgary, AB
 
 > See also: [Calgary Transit-Accessible Parks](https://github.com/chloechloe-a11y/calgary-transit-trailheads)
