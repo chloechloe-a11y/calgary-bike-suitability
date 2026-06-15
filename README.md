@@ -75,6 +75,13 @@ Each road segment is scored on three criteria weighted by the North Bend Exponen
 | `04_sensitivity.py` | Test score stability under alternative weight scenarios |
 | `05_validate.py` | Cross-check scored segments against existing bikeways |
 
+## Key Results
+
+- **74,459 road segments** processed from the City of Calgary Street Centreline dataset (filtered from 119,946 total: built, corporate-owned roads only)
+- Weighted scoring applied across three criteria: road width (84%), slope (13%), speed limit (3%)
+- Sensitivity analysis (4 OAT scenarios: baseline 84/13/3, plus 3 rounds shifting 15 pp between criteria) confirmed **road width is the dominant factor** — reducing width weight from 84% to 69% produced the largest score shifts across all segments
+- Results cross-validated against existing Calgary Bikeways layer using `05_validate.py`
+
 ## Author
 
 Yujia Zhang | MEng Geomatics, University of Calgary | Calgary, AB
