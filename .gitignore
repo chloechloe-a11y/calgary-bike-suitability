@@ -1,0 +1,16 @@
+# Large GIS data files (too large for GitHub)
+data/raw/25m_Raster.gdb/
+data/processed/calgary_bike.gdb/
+data/raw/Street Centreline_20260507/
+data/raw/Street_Centreline_20260507.csv
+
+# ArcGIS lock files
+*.sr.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
